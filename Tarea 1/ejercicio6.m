@@ -23,4 +23,4 @@ end
 %Se reproduce el tono
 x = cos(2*pi*notes*t); 
 sig = reshape(x',cantidad_de_armonicos*length(t),1);
-soundsc(sig,fs)
+soundsc(sig,fs);
