@@ -2,6 +2,9 @@
 % Ejercicio 2
 %-------------------------
 
+% Grafica las funciones x1 y x2 en una misma figura
+% Integrantes: Alejandra Castrillo - Justin Chavarria - Cristhian Rojas
+
 figure('Name', 'Ejercicio 2');
 
 subplot(2,1,1);
