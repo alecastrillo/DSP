@@ -26,7 +26,3 @@ function ejercicio5(A,Fo,Fs,C,ti,tf)
     title(" s(n) ");
 
 end
-
-% Prueba del profe
-% ejercicio5(10,500,4000,1,0,0.01)
-

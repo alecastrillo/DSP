@@ -5,9 +5,6 @@
 % Se reproduce un tono con todos sus armónicos en el espectro audible
 % Integrantes: Alejandra Castrillo - Justin Chavarria - Cristhian Rojas
 
-clc;
-clear all;
-
 fs = 44100;                                             % Frecuencia de muestreo para una señal de audio
 t  = 0:1/fs:5;                                          % Vector del tiempo
 fo = input('Digite el valor de la frecuencia: ');       % Frecuencia fo como entrada                    
