@@ -23,6 +23,6 @@ function ejercicio5(A,Fo,Fs,C,ti,tf)
     plot(linspace(0,floor(periods*samplesPerPeriod),length(st)), st, 'r');  % Grafica la señal continua 
     hold off;
     axis tight;
-    title(" s(n) ");
+    title(' s(n) ');
 
 end
