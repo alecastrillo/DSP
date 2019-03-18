@@ -2,7 +2,7 @@
 % Ejercicio 2
 %-------------------------
 
-% Grafica las funciones x1 y x2 en una misma figura
+% Grafica las funciones x1 y x2 en una misma figura.
 % Integrantes: Alejandra Castrillo - Yostin Chavarria - Cristhian Rojas
 
 figure('Name', 'Ejercicio 2');
