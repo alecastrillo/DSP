@@ -4,7 +4,7 @@
 
 % Grafica cuatro funciones dadas y a partir de estas obtiene otras tres 
 % funciones mas para graficarlas compuestas por las anteriores.
-% Integrantes: Alejandra Castrillo - Justin Chavarria - Cristhian Rojas
+% Integrantes: Alejandra Castrillo - Yostin Chavarria - Cristhian Rojas
 
 % Se declara el vector de la variable discreta n.
 n  = 0:1:36; 
@@ -21,35 +21,35 @@ stem(n, x1, 'filled', 'g');
 axis tight;
 title(" X1 ");
 xlabel("variable independiente n"); 
-ylabel("valores de la función x1(n)"); 
+ylabel("valores de la funciÃ³n x1(n)"); 
 
 subplot(2,2,2);
 stem(n, x2, 'filled', 'r');
 axis tight;
 title(" X2 ");
 xlabel("variable independiente n"); 
-ylabel("valores de la función x2(n)"); 
+ylabel("valores de la funciÃ³n x2(n)"); 
 
 subplot(2,2,3);
 stem(n, x3, 'filled', 'b');
 axis tight;
 title(" X3 ");
 xlabel("variable independiente n"); 
-ylabel("valores de la función x3(n)"); 
+ylabel("valores de la funciÃ³n x3(n)"); 
 
 subplot(2,2,4);
 stem(n, x4, 'filled', 'y');
 axis tight;
 title(" X4 ");
 xlabel("variable independiente n"); 
-ylabel("valores de la función x4(n)"); 
+ylabel("valores de la funciÃ³n x4(n)"); 
 
 % Se definen las funciones compuestas a partir de las funciones base.
 y1 = x1 + x2;
 y2 = x1 + x2 - x3;
 y3 = x1 + x2 - x3 + 2*x4;
 
-% Se muestran las gr�ficas de las funciones compuestas.
+% Se muestran las gráficas de las funciones compuestas.
 figure('Name', 'Ejercicio 3 - YS');
 
 subplot(3,1,1);
@@ -57,18 +57,18 @@ stem(n, y1, 'filled', 'g');
 axis tight;
 title(" Y1 ");
 xlabel("variable independiente n"); 
-ylabel("función y1(n) "); 
+ylabel("funciÃ³n y1(n) "); 
 
 subplot(3,1,2);
 stem(n, y2, 'filled', 'r');
 axis tight;
 title(" Y2 ");
 xlabel("variable independiente n"); 
-ylabel("función y2(n) "); 
+ylabel("funciÃ³n y2(n) "); 
 
 subplot(3,1,3);
 stem(n, y3, 'filled', 'b');
 axis tight;
 title(" Y3 ");
 xlabel("variable independiente n"); 
-ylabel("función y3(n)"); 
+ylabel("funciÃ³n y3(n)"); 
