@@ -1,7 +1,7 @@
 %-------------------------
 % Ejercicio 6: Programa que que sintetiza una señal y reproduce un tono según una frecuncia  
 % dada en Hz, así como todos los armónicos del espectro audible en dicha frecuencia.
-% Integrantes: ALejandra Castrillo - Justin Chavarria - Cristhian Rojas
+% Integrantes: ALejandra Castrillo - Yostin Chavarria - Cristhian Rojas
 % Fecha: 12/03/2019
 %-------------------------
 
