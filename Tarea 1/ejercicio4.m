@@ -3,7 +3,7 @@
 % La función ejercicio4(), recibe como parámetros un vector x con valores de muestra y un vector n con las 
 % posiciones de las muestras.
 % Version 2: Se corrige el desplzamiento de las muestras según el reflejo de la posición cero.
-% Integrantes: ALejandra Castrillo - Justin Chavarria - Cristhian Rojas
+% Integrantes: ALejandra Castrillo - Yostin Chavarria - Cristhian Rojas
 % Fecha: 12/03/2019
 %-------------------------
 
