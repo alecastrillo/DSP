@@ -1,7 +1,7 @@
 %-------------------------
 % Ejercicio 3: Graficar cuatro funciones dadas y a partir de estas obtener otras tres funciones
 % más para graficarlas.
-% Integrantes: ALejandra Castrillo - Justin Chavarria - Cristhian Rojas
+% Integrantes: ALejandra Castrillo - Yostin Chavarria - Cristhian Rojas
 % Fecha: 11/03/2019
 %-------------------------
 
