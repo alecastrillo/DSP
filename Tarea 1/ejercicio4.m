@@ -1,6 +1,5 @@
 %-------------------------
 % Ejercicio 4
-% Versión 2
 %-------------------------
 
 function ejercicio4( x , n )
