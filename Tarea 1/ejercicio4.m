@@ -47,19 +47,19 @@ function ejercicio4( x , n )
     % Grafica de la parte par
     subplot(2,2,2); 
     stem(n, xp, 'filled', 'g'); 
-    title(" xp(n) ");
+    title(' xp(n) ');
     axis tight;
 
     % Grafica de la parte impar
     subplot(2,2,3);
     stem(n, xi, 'filled', 'g');
-    title(" xi(n) ");
+    title(' xi(n) ');
     axis tight;
     
     % Grafica de la suma de la parte par e impar
     subplot(2,2,4); 
     stem(n, xp + xi , 'filled', 'g');
-    title(" xp(n) + xi(n) ");
+    title(' xp(n) + xi(n) ');
     axis tight;
     
 end
