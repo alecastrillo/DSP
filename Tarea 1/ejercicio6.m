@@ -1,8 +1,9 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%         .Ejercicio 6.         %%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------
+% Ejercicio 6: Programa que que sintetiza una señal y reproduce un tono según una frecuncia  
+% dada en Hz, así como todos los armónicos del espectro audible en dicha frecuencia.
+% Integrantes: ALejandra Castrillo - Justin Chavarria - Cristhian Rojas
+% Fecha: 12/03/2019
+%-------------------------
 
 clc;
 clear all;
@@ -21,6 +22,8 @@ for i=2:cantidad_de_armonicos
 end
 
 %Se reproduce el tono
-x = cos(2*pi*notes*t); 
-sig = reshape(x',cantidad_de_armonicos*length(t),1);
-soundsc(sig,fs);
+x = cos(2*pi*notes*t);
+sig = reshape(x',cantidad_de_armonicos*length(t),1); % Esta función se utiliza para reformular el vector de x con el vector que
+                 % contiene la cantidad de armonicos generados según la frecuencia de entrada.
+soundsc(sig,fs); % Finalmente esta función convierte una matriz o vector de datos en sonidos, con el segundo argumento
+                 % se establece la frecuencia de muestreo de la señal de audio.
