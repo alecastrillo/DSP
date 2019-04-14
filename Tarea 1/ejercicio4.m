@@ -4,7 +4,8 @@
 
 % Recibe como parametros un vector x con valores de muestra y un vector n con
 % las posiciones de las muestras.
-% Integrantes: Alejandra Castrillo - Justin Chavarria - Cristhian Rojas
+% Integrantes: Alejandra Castrillo - Yostin Chavarria - Cristhian Rojas
+% Fecha: 12/03/2019
 
 function ejercicio4( x , n ) 
     

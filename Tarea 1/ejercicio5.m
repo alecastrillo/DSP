@@ -3,7 +3,8 @@
 %-------------------------
 
 % Se grafica la funcion s(n) como muestreo y s(t) como funcion continua superpuestas  
-% Integrantes: Alejandra Castrillo - Justin Chavarria - Cristhian Rojas
+% Integrantes: Alejandra Castrillo - Yostin Chavarria - Cristhian Rojas
+% Fecha: 15/03/2019
 
 function ejercicio5(A,Fo,Fs,C,ti,tf)
     
@@ -24,5 +25,8 @@ function ejercicio5(A,Fo,Fs,C,ti,tf)
     hold off;
     axis tight;
     title(" s(n) ");
-
+    xlabel(strcat('Time [ms]'));
+    set(gca,'xtick',[0 10 20 30 40]);
+    set(gca,'xticklabels',{'0','2.5','5','7.5','10'});
+    
 end
